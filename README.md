@@ -1,10 +1,21 @@
 # OpenTLP
 
-This repository provides reference implementations for some representative technqiues regarding temporal link prediction (TLP), a classic inference task on dynamic graphs. All the TLP methods are implemented via a unified encoder-decoder framework. In addition, this repository also summarizes some other open-source projects of existing TLP techniques.
+This repository is the open-source project of a survey paper entitiled "Temporal Link Prediction: A Unified Framework, Taxonomy, and Review" (https://arxiv.org/abs/2210.08765). It refactors or implments some representative technqiues of temporal link prediction (TLP), a classic inference task on dynamic graphs, based on a unified encoder-deocder framework and terminologies (e.g., task settings, taxonomy, etc.) introduced in the survrey. In addition, this repository also summarizes some other open-source sources / projects regarding TLP.
 
-Note that this repository is not the official implmentation of the related methods. Some of the implmented TLP approaches also need further parameter tuning to achive the best performance on different datasets.
+Note that this repository is not the official implmentation of related methods. Some of the implmented TLP approaches also need further parameter tuning to achive the best performance on different datasets. We will keep updating this repository to include some other (SOTA or classic) TLP methods, task settings, dynamic graph datasets, etc.
 
-This repository will keep updating to include some other TLP methods, task settings, dynamic graph datasets, etc.
+### Citing
+If you find this project useful for research, please cite our survey paper.
+```
+@article{qin2022temporal,
+  title={Temporal Link Prediction: A Unified Framework, Taxonomy, and Review}, 
+  author={Meng Qin and Dit-Yan Yeung},
+  journal={arXiv preprint arXiv:2210.08765},
+  year={2022}
+}
+
+```
+If you have any questions regarding this repository, you can contact the author via [mengqin_az@foxmail.com].
 
 ### Usage
 
@@ -12,9 +23,22 @@ Some representative methods based on non-negative matrix factorization (NMF) are
 
 *TMF* [5] and *LIST* [6] are TLP methods based on the generic matrix factorization, which are implmented via PyTorch in this repository. Moreover, some deep learning (DL) based approaches are also implmented via PyTorch, including *Dyngraph2vec* [7], *DDNE* [8], *E-LSTM-D* [9], *GCN-GAN* [10], *NetworkGAN* [11], and *STGSN* [12]. The source code and data of these methods (implmented by Matlab) are put under directory ./Python. For each method, a set of classes are used to define the encoder, decoder, and loss function, which are put under the directory ./Python/[method_name]. Furthermore, [method_name].py demonstrates how to use these classes. To run the demonstration code, please first unzip the data.zip in ./Python/data.
 
-### Other Open-Source Projects
+### Other Open-Source Projects & Sources
 
-There are some other open-source implementation for several TLP approaches, including [TLSI](https://github.com/linhongseba/Temporal-Network-Embedding) (Temporal Latnet Space Index) [13], [MLjFE](https://github.com/xkmaxidian/MLjFE) [14], [EvolveGCN](https://github.com/IBM/EvolveGCN) [15], [CTDNE](https://github.com/LogicJake/CTDNE) [16], [M2DNE](https://github.com/rootlu/MMDNE) [17], [DyRep](https://github.com/uoguelph-mlrg/LDG/blob/master/dyrep.py) [18], [TGAT](https://github.com/StatsDLMathsRecomSys/Inductive-representation-learning-on-temporal-graphs) [19], and [CAW](http://snap.stanford.edu/caw/) [20].
+| Methods | Data Models | Paradigms | Level | Attributes | Weighted TLP|
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| [TLSI](https://github.com/linhongseba/Temporal-Network-Embedding) [13] | Evenly-Spaced Snapshot | OTI | 1 | N/A | Yes |
+| [MLjFE](https://github.com/xkmaxidian/MLjFE) [14] | Evenly-Spaced Snapshot | OTI | 1 | N/A | Yes |
+| [EvolveGCN](https://github.com/IBM/EvolveGCN) [15] | Evenly-Spaced Snapshot | OTOG | 2 | Dynamic | D/L-Dep |
+| [CTDNE](https://github.com/LogicJake/CTDNE) [16] | Unevenly-Spaced Edge Seq | OTOG | 1 | N/A | No |
+| [M2DNE](https://github.com/rootlu/MMDNE) [17] | Unevenly-Spaced Edge Seq | OTOG | 1 | N/A | No |
+| [DyRep](https://github.com/uoguelph-mlrg/LDG/blob/master/dyrep.py) [18] | Unevenly-Spaced Edge Seq | OTOG | 2 | Dynamic | No |
+| [TGAT](https://github.com/StatsDLMathsRecomSys/Inductive-representation-learning-on-temporal-graphs) [19] | Unevenly-Spaced Edge Seq | OTOG | 2 | Dynamic | No |
+| [CAW](http://snap.stanford.edu/caw/) [20] | Unevenly-Spaced Edge Seq | OTOG | 2 | Dynamic | No |
+| [DySAT](https://github.com/aravindsankar28/DySAT) [21] | Evenly-Spaced Snapshot| OTOG | 2 | Dynamic | No |
+| [TREND](https://github.com/WenZhihao666/TREND) [22] | Unevenly-Spaced Edge Seq | OTOG | 2 | Static | No |
+| [DyGNN](https://github.com/alge24/dygnn) [23] | Unevenly-Spaced Edge Seq | OTOG | 1 | No | No |
+
 
 ### References
 [1] Gao, Sheng, Ludovic Denoyer, and Patrick Gallinari. Temporal Link Prediction by Integrating Content and Structure Information. ACM CIKM, 2011.
@@ -57,4 +81,8 @@ There are some other open-source implementation for several TLP approaches, incl
 
 [20] Wang, Yanbang, et al. Inductive Representation Learning in Temporal Networks via Causal Anonymous Walks. ICLR, 2021.
 
-If you have any questions, you can contact the author via [mengqin_az@foxmail.com].
+[21] Sankar, Aravind, et al. DySAT: Deep Neural Representation Learning on Dynamic Graphs via Self-Attention Networks. ACM WSDM, 2020.
+
+[22] Wen, Zhihao, and Yuan Fang. TREND: TempoRal Event and Node Dynamics for Graph Representation Learning. ACM WWW, 2022.
+
+[23] Ma, Yao, et al. Streaming Graph Neural Networks. ACM SIGIR, 2020.
