@@ -40,7 +40,7 @@ Details of the implemented TLP methods are summarized as follows.
 | E-LSTM-D [9] | Evenly-Spaced Snapshot | OTOG | 1 | N/A | Yes | Python |
 | GCN-GAN [10] | Evenly-Spaced Snapshot | OTOG | 1 | N/A | Yes | Python |
 | NetworkGAN [11] | Evenly-Spaced Snapshot | OTOG | 1 | N/A | Yes | Python |
-| STGSN [12] | Evenly-Spaced Snapshot | OTOG | 2 | N/A | Yes | Python |
+| STGSN [12] | Evenly-Spaced Snapshot | OTOG | 2 | Dynamic | Yes | Python |
 
 ### Other Open-Source Projects & Sources
 
