@@ -1,8 +1,8 @@
 # OpenTLP
 
-This repository is the open-source project of a survey paper entitiled "Temporal Link Prediction: A Unified Framework, Taxonomy, and Review" (https://arxiv.org/abs/2210.08765). It refactors or implments some representative technqiues of temporal link prediction (TLP), a classic inference task on dynamic graphs, based on a unified encoder-deocder framework and terminologies (e.g., task settings, taxonomy, etc.) introduced in the survrey. In addition, this repository also summarizes some other open-source sources / projects regarding TLP.
+This repository is the open-source project of a survey paper entitled "Temporal Link Prediction: A Unified Framework, Taxonomy, and Review" (https://arxiv.org/abs/2210.08765). It refactors or implements some representative techniques of temporal link prediction (TLP), a classic inference task on dynamic graphs, based on a unified encoder-decoder framework and terminologies (e.g., task settings, taxonomy, etc.) introduced in the survey. In addition, this repository also summarizes some other open-source projects regarding TLP.
 
-Note that this repository is not the official implmentation of related methods. Some of the implmented TLP approaches also need further parameter tuning to achive the best performance on different datasets. We will keep updating this repository to include some other (SOTA or classic) TLP methods, task settings, dynamic graph datasets, etc.
+Note that this repository is not the official implementation of related methods. Some of the implemented TLP approaches also need further parameter tuning to achieve the best performance on different datasets. We will keep updating this repository to include some other (SOTA or classic) TLP methods, task settings, dynamic graph datasets, etc.
 
 ### Citing
 If you find this project useful for research, please cite our survey paper.
@@ -19,9 +19,28 @@ If you have any questions regarding this repository, you can contact the author 
 
 ### Usage
 
-Some representative methods based on non-negative matrix factorization (NMF) are implemented via Matlab, including *CRJMF* [1], *GrNMF* [2], *DeepEye* [3], and *AM-NMF* [4]. The source code and data of these methods (implmented by Matlab) are put under directory ./Matlab. For each method, [method_name].m provides the functions that give the definitions of encoder and decoder, where the loss function is derived during the optimization of encoder. [method_name]_demo.m demonstrates how to use these functions. To run the demonstration code, please first unzip the data.zip in ./Matlab/data.
+We implement some representative TLP methods using MATLAB and PyTorch, with the corresponding code and data put under the direcories './Matlab' and './Python'.
 
-*TMF* [5] and *LIST* [6] are TLP methods based on the generic matrix factorization, which are implmented via PyTorch in this repository. Moreover, some deep learning (DL) based approaches are also implmented via PyTorch, including *Dyngraph2vec* [7], *DDNE* [8], *E-LSTM-D* [9], *GCN-GAN* [10], *NetworkGAN* [11], and *STGSN* [12]. The source code and data of these methods (implmented by Matlab) are put under directory ./Python. For each method, a set of classes are used to define the encoder, decoder, and loss function, which are put under the directory ./Python/[method_name]. Furthermore, [method_name].py demonstrates how to use these classes. To run the demonstration code, please first unzip the data.zip in ./Python/data.
+For each method implemented by MATLAB, [method_name].m provides the functions that give the definitions of encoder and decoder, where the loss function is derived during the optimization of encoder. [method_name]_demo.m demonstrates how to use these functions. To run the demonstration code, please first unzip the data.zip in ./Matlab/data.
+
+For each method implemented by PyTorch, a set of classes are used to define the encoder, decoder, and loss function, which are put under the directory './Python/[method_name]'. Furthermore, [method_name].py demonstrates how to use these classes. To run the demonstration code, please first unzip the data.zip in ./Python/data. In particular, these methods (implemented by PyTorch) can be speeded up via GPUs.
+
+Details of the implemented TLP methods are summarized as follows.
+
+| Methods | Data Models | Paradigms | Level | Attributes | Weighted TLP | Language |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| CRJMF [1] | Evenly-Spaced Snapshot | OTI | 1 | Static | Yes | MATLAB |
+| GrNMF [2] | Evenly-Spaced Snapshot | OTI | 1 | N/A | Yes | MATLAB |
+| DeepEye [3] | Evenly-Spaced Snapshot | OTI | 1 | N/A | Yes | MATLAB |
+| AM-NMF [4] | Evenly-Spaced Snapshot | OTI | 1 | N/A | Yes | MATLAB |
+| TMF [5] | Evenly-Spaced Snapshot | OTI | 1 | N/A | Yes | Python |
+| LIST [6] | Evenly-Spaced Snapshot | OTI | 1 | N/A | Yes | Python |
+| Dyngraph2vec [7] | Evenly-Spaced Snapshot | OTOG | 1 | N/A | Yes | Python |
+| DDNE [8] | Evenly-Spaced Snapshot | OTOG | 1 | N/A | Yes | Python |
+| E-LSTM-D [9] | Evenly-Spaced Snapshot | OTOG | 1 | N/A | Yes | Python |
+| GCN-GAN [10] | Evenly-Spaced Snapshot | OTOG | 1 | N/A | Yes | Python |
+| NetworkGAN [11] | Evenly-Spaced Snapshot | OTOG | 1 | N/A | Yes | Python |
+| STGSN [12] | Evenly-Spaced Snapshot | OTOG | 2 | N/A | Yes | Python |
 
 ### Other Open-Source Projects & Sources
 
@@ -38,6 +57,8 @@ Some representative methods based on non-negative matrix factorization (NMF) are
 | [DySAT](https://github.com/aravindsankar28/DySAT) [21] | Evenly-Spaced Snapshot| OTOG | 2 | Dynamic | No |
 | [TREND](https://github.com/WenZhihao666/TREND) [22] | Unevenly-Spaced Edge Seq | OTOG | 2 | Static | No |
 | [DyGNN](https://github.com/alge24/dygnn) [23] | Unevenly-Spaced Edge Seq | OTOG | 1 | No | No |
+| [IDEA](https://github.com/KuroginQin/IDEA) [24] | Evenly-Spaced Snapshot | OTOG | 2 | Static | Yes |
+| [GSNOP](https://github.com/RManLuo/GSNOP) [25] | Unevenly-Spaced Edge Seq | OTOG | 2 | Dynamic | No |
 
 
 ### References
@@ -86,3 +107,7 @@ Some representative methods based on non-negative matrix factorization (NMF) are
 [22] Wen, Zhihao, and Yuan Fang. TREND: TempoRal Event and Node Dynamics for Graph Representation Learning. ACM WWW, 2022.
 
 [23] Ma, Yao, et al. Streaming Graph Neural Networks. ACM SIGIR, 2020.
+
+[24] Qin, Meng, et al. High-Quality Temporal Link Prediction for Weighted Dynamic Graphs Via Inductive Embedding Aggregation. IEEE TKDE, 2023.
+
+[25] Luo, Linhao, Gholamreza Haffari, and Shirui Pan. Graph Sequential Neural ODE Process for Link Prediction on Dynamic and Sparse Graphs. ACM WSDM, 2023.
