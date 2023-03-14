@@ -59,7 +59,9 @@ Details of the implemented TLP methods are summarized as follows.
 | [DyGNN](https://github.com/alge24/dygnn) [23] | Unevenly-Spaced Edge Seq | OTOG | 1 | No | No |
 | [IDEA](https://github.com/KuroginQin/IDEA) [24] | Evenly-Spaced Snapshot | OTOG | 2 | Static | Yes |
 | [GSNOP](https://github.com/RManLuo/GSNOP) [25] | Unevenly-Spaced Edge Seq | OTOG | 2 | Dynamic | No |
-
+| [TGN](https://github.com/twitter-research/tgn) [26] | Unevenly-Spaced Edge Seq | OTOG | 2 | Dynamic | No |
+| [MNCI](https://github.com/MGitHubL/MNCI) [27] | Unevenly-Spaced Edge Seq | OTOG | 2 | N/A | No |
+| [TDGNN](https://github.com/Leo-Q-316/TDGNN) [28] | Unevenly-Spaced Edge Seq | OTOG | 1 | Static | No |
 
 ### References
 [1] Gao, Sheng, Ludovic Denoyer, and Patrick Gallinari. Temporal Link Prediction by Integrating Content and Structure Information. ACM CIKM, 2011.
@@ -111,3 +113,9 @@ Details of the implemented TLP methods are summarized as follows.
 [24] Qin, Meng, et al. High-Quality Temporal Link Prediction for Weighted Dynamic Graphs Via Inductive Embedding Aggregation. IEEE TKDE, 2023.
 
 [25] Luo, Linhao, Gholamreza Haffari, and Shirui Pan. Graph Sequential Neural ODE Process for Link Prediction on Dynamic and Sparse Graphs. ACM WSDM, 2023.
+
+[26] Rossi, Emanuele, et al. Temporal graph networks for deep learning on dynamic graphs. ICML Workshop on Graph Representation Learning, 2020.
+
+[27] Liu, Meng, and Yong Liu. Inductive representation learning in temporal networks via mining neighborhood and community influences. ACM SIGIR, 2021.
+
+[28] Qu, Liang, et al. Continuous-time link prediction via temporal dependent graph neural network. ACM WWW, 2020.
