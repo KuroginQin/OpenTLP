@@ -62,6 +62,7 @@ Details of the implemented TLP methods are summarized as follows.
 | [TGN](https://github.com/twitter-research/tgn) [26] | Unevenly-Spaced Edge Seq | OTOG | 2 | Dynamic | No |
 | [MNCI](https://github.com/MGitHubL/MNCI) [27] | Unevenly-Spaced Edge Seq | OTOG | 2 | N/A | No |
 | [TDGNN](https://github.com/Leo-Q-316/TDGNN) [28] | Unevenly-Spaced Edge Seq | OTOG | 1 | Static | No |
+| [HTNE](http://zuoyuan.github.io/files/htne.zip) [29] | Unevenly-Spaced Edge Seq | OTI | 1 | N/A | No |
 
 ### References
 [1] Gao, Sheng, Ludovic Denoyer, and Patrick Gallinari. Temporal Link Prediction by Integrating Content and Structure Information. ACM CIKM, 2011.
@@ -119,3 +120,5 @@ Details of the implemented TLP methods are summarized as follows.
 [27] Liu, Meng, and Yong Liu. Inductive representation learning in temporal networks via mining neighborhood and community influences. ACM SIGIR, 2021.
 
 [28] Qu, Liang, et al. Continuous-time link prediction via temporal dependent graph neural network. ACM WWW, 2020.
+
+[29] Zuo, Yuan, et al. Embedding temporal network via neighborhood formation. ACM KDD, 2018.
