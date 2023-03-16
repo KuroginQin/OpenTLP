@@ -1,11 +1,11 @@
 # OpenTLP
 
-This repository is the open-source project of a survey paper entitled "Temporal Link Prediction: A Unified Framework, Taxonomy, and Review" (https://arxiv.org/abs/2210.08765). It refactors or implements some representative techniques of temporal link prediction (TLP), a classic inference task on dynamic graphs, based on a unified encoder-decoder framework and terminologies (e.g., task settings, taxonomy, etc.) introduced in the survey. In addition, this repository also summarizes some other open-source projects regarding TLP.
+This repository is the open-source project of a survey paper entitled "Temporal Link Prediction: A Unified Framework, Taxonomy, and Review" (https://arxiv.org/abs/2210.08765). It refactors or implements some representative techniques of temporal link prediction (TLP), a classic inference task on dynamic graphs, based on a unified encoder-decoder framework and terminologies (e.g., task settings, taxonomy, etc.) introduced in the survey paper. In addition, this repository also summarizes some other open-source projects regarding TLP.
 
 Note that this repository is not the official implementation of related methods. Some of the implemented TLP approaches also need further parameter tuning to achieve the best performance on different datasets. We will keep updating this repository to include some other (SOTA or classic) TLP methods, task settings, dynamic graph datasets, etc.
 
 ### Citing
-If you find this project useful for research, please cite our survey paper.
+If you find this project useful for your research, please cite our survey paper.
 ```
 @article{qin2022temporal,
   title={Temporal Link Prediction: A Unified Framework, Taxonomy, and Review}, 
