@@ -30,6 +30,7 @@ If you have any questions regarding this repository, you can contact the author 
   - [Implemented or Refactored TLP Methods](#implemented-or-refactored-tlp-methods)
   - [Other Open Source Projects Regarding TLP](#other-open-source-projects-regarding-tlp)
   - [Other Related Survey Papers](#other-related-survey-papers)
+  - [Advanced Applications Supported by TLP](#advanced-applications-supported-by-tlp)
   - [References](#references)
 
 ## Notations
@@ -118,6 +119,32 @@ Details of the implemented TLP methods are summarized as follows.
 - Haghani, Sogol, and Mohammad Reza Keyvanpour. [Temporal Link Prediction: Techniques and Challenges](https://csit.am/2017/Proceedings/AICM/AICM6.pdf). Computer Science & Information Technologies. Yerevan (2017).
 
 - Divakaran, Aswathy, and Anuraj Mohan. [Temporal Link Prediction: A Survey](https://link.springer.com/article/10.1007/s00354-019-00065-z)." New Generation Computing 38 (2020): 213-258.
+
+## Advanced Applications Supported by TLP
+
+**Intrusion Detection in Enterprise Internet**
+
+- King, Isaiah J., and H. Howie Huang. [Euler: Detecting Network Lateral Movement via Scalable Temporal Link Prediction](https://dl.acm.org/doi/abs/10.1145/3588771). ACM TOPS (2023).
+
+**Channel Allocation in Wireless IoT Networks**
+
+- Gao, Weifeng, et al. [Edge-Computing-Based Channel Allocation for Deadline-Driven IoT Networks](https://ieeexplore.ieee.org/abstract/document/8998165). IEEE TII 16.10 (2020): 6693-6702.
+
+**Burst Traffic Detection and Dynamic Routing in Optical Networks**
+
+- Vinchoff, Connor, et al. [Traffic prediction in optical networks using graph convolutional generative adversarial networks](https://ieeexplore.ieee.org/abstract/document/9203477). IEEE ICTON 2020.
+
+- Aibin, Michał, et al. [On short-and long-term traffic prediction in optical networks using machine learning](https://ieeexplore.ieee.org/abstract/document/9492437). IEEE ONDM 2021.
+
+**Dynamics Simulation and Conformational Analysis of Molecules**
+
+- Ashby, Michael Hunter, and Jenna A. Bilbrey. [Geometric learning of the conformational dynamics of molecules using dynamic graph neural networks](https://arxiv.org/abs/2106.13277). arXiv preprint arXiv:2106.13277 (2021).
+
+**Traffic Prediction Demand Prediction in Urban Computing**
+
+- Liu, Chenxi, et al. [Foreseeing private car transfer between urban regions with multiple graph-based generative adversarial networks](https://link.springer.com/article/10.1007/s11280-021-00995-z). WWWJ 25.6 (2022): 2515-2534.
+
+- Wang, Qiang, et al. [TGAE: Temporal Graph Autoencoder for Travel Forecasting](https://ieeexplore.ieee.org/abstract/document/9889163). IEEE T-ITS (2022).
 
 ## References
 [1] Gao, Sheng, Ludovic Denoyer, and Patrick Gallinari. Temporal Link Prediction by Integrating Content and Structure Information. ACM CIKM, 2011.
