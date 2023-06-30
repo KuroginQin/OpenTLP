@@ -35,9 +35,9 @@ If you have any questions regarding this repository, you can contact the author 
 
 ## Notations
 
-- **ESSD** - Evenly-Sampled Snapshot Sequence Description, a.k.a. Discrete-Time Dynamic Graph (DTDG) in other literatures.
+- **ESSD** - Evenly-Sampled Snapshot Sequence Description, a.k.a. Discrete-Time Dynamic Graph (DTDG) in other literature.
 
-- **UESD** - Unevenly-Sampled Edge Sequence Description, a.k.a. Continuous-Time Dynamic Graph (CTDG) in other literatures.
+- **UESD** - Unevenly-Sampled Edge Sequence Description, a.k.a. Continuous-Time Dynamic Graph (CTDG) in other literature.
 
 (We argure that CTDG cannot precisely describe the corresponding data model. Although the time index associated with each edge is defined on a continuous domain in the second data model, the edge sequence used to encode the dynamic topology is still discrete. The term of *continuous* description may be ambiguous in some cases. Therefore, we use ESSD & UESD instead of DTDG & CTDG.)
 
