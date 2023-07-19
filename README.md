@@ -116,7 +116,7 @@ Details of the implemented TLP methods are summarized as follows.
 | [Bitcoin-OTC](https://snap.stanford.edu/data/soc-sign-bitcoin-otc.html) | Bitcoin transaction network | Bitcoin users | Trust scores between users | Yes | 1 sec | UESD | 2 |
 | [UCSB-Mesh](https://ieee-dataport.org/open-access/crawdad-ucsbmeshnet) | Wireless mesh network | Wireless routers | Link quality (in terms of expected transmission time) between routers | Yes | 1 min | ESSD | 1 |
 | [NumFabric](https://github.com/shouxi/numfabric) | (Simulated) data center network | Host servers | Traffic (in terms of KB) between host servers | Yes | 1e-6 sec | UESD | 1 |
-| [UCSD-WTD](http://www.sysnet.ucsd.edu/wtd) | WiFi mobility network & Access points/PDA devices | Signal strength (in terms of dBm) between access points and PAD devices | Yes | 1 sec | UESD | 2 |
+| [UCSD-WTD](http://www.sysnet.ucsd.edu/wtd) | WiFi mobility network | Access points/PDA devices | Signal strength (in terms of dBm) between access points and PAD devices | Yes | 1 sec | UESD | 2 |
 | [UNSW-IoT](https://iotanalytics.unsw.edu.au/iottraces.html) | IoT network | IoT devices | Traffic (in terms of KB) between IoT devices | Yes | 1e-6 sec | UESD | 2 |
 | [WIDE](https://mawi.wide.ad.jp/mawi) | Internet backbone | Host servers/user devices | Traffic (in terms of KB) between servers/devices | Yes | 1e-6 sec | UESD | 2 |
 
