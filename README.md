@@ -29,6 +29,7 @@ If you have any questions regarding this repository, you can contact the author 
   - [Notations](#notations)
   - [Implemented or Refactored TLP Methods](#implemented-or-refactored-tlp-methods)
   - [Other Open Source Projects Regarding TLP](#other-open-source-projects-regarding-tlp)
+  - [Public Datasets for TLP](#public-datasets-for-tlp)
   - [Other Related Survey Papers](#other-related-survey-papers)
   - [Advanced Applications Supported by TLP](#advanced-applications-supported-by-tlp)
   - [References](#references)
@@ -82,6 +83,7 @@ Details of the implemented TLP methods are summarized as follows.
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | TLSI [[13]](https://ieeexplore.ieee.org/document/7511675/) [(Code)](https://github.com/linhongseba/Temporal-Network-Embedding) | TKDE 2016 | ESSD | OTI | 1 | N/A | Able |
 | MLjFE [[14]](https://www.sciencedirect.com/science/article/pii/S0031320321003976?casa_token=Gub6BWKZu04AAAAA:JRCE5S2P_DSqcbcb2TTAaUPO66EKZAjyxReCCMU_tubFaIhoMFkIMgKBGpFBVdUyBcz2BRXmugo) [(Code)](https://github.com/xkmaxidian/MLjFE) | Pattern Recognition 2022 | ESSD | OTI | 1 | N/A | Able |
+| E-LSTM-D [[9]](https://ieeexplore.ieee.org/document/8809903) [(Code)](https://github.com/jianz94/E-lstm-d/) | Trans on SMC: Sys 2019 | ESSD | OTOG | 1 | N/A | Able |
 | EvolveGCN [[15]](https://ojs.aaai.org/index.php/AAAI/article/view/5984/5840) [(Code)](https://github.com/IBM/EvolveGCN) | AAAI 2020 | ESSD | OTOG | 2 | Dynamic | D/L-Dep |
 | CTDNE [[16]](https://dl.acm.org/doi/pdf/10.1145/3184558.3191526) [(Code)](https://github.com/LogicJake/CTDNE) | WWW 2018 Companion | UESD | OTOG | 1 | N/A | Unable |
 | M2DNE [[17]](https://dl.acm.org/doi/abs/10.1145/3357384.3357943?casa_token=gHmbPKCe6SIAAAAA%3AYnNL6vEKb244ITZZshHsdaEjXQLDrN6g6qMixzzEw92Uvtv3SDt1lqSVsxZTAbkURAzKoRDkBdxteQ) [(Code)](https://github.com/rootlu/MMDNE) | CIKM 2019 | UESD | OTOG | 1 | N/A | Unable |
@@ -98,6 +100,25 @@ Details of the implemented TLP methods are summarized as follows.
 | TDGNN [[28]](https://dl.acm.org/doi/abs/10.1145/3366423.3380073?casa_token=jLhry0KLfTkAAAAA%3AM3P8hualerbyJaM34lWGwHAqIuN9d6lkh2nN5fqTIfo57Zx-3pKY7ifTQi-XMb7VRdAuHx_Lt7y4Yw) [(Code)](https://github.com/Leo-Q-316/TDGNN) | WWW 2020 | UESD | OTOG | 1 | Static | Unable |
 | HTNE [[29]](https://dl.acm.org/doi/pdf/10.1145/3219819.3220054?casa_token=Ddsd4L9GsSkAAAAA:JJbGLEFDF82wccb0txK4FfEMVDbiADcxeU8sp2itTxsZcOhlRQ_VD206kJJ9GyRpEvwqfDAKu17b2w) [(Code)](http://zuoyuan.github.io/files/htne.zip) | KDD 2018 | UESD | OTI | 1 | N/A | Unable |
 | SGR [[30]](https://ieeexplore.ieee.org/abstract/document/10183879) [(Code)](https://github.com/yinyanting123/SRG) | TKDE 2023 | ESSD | OTOG | 1 | N/A | Able |
+
+## Public Datasets for TLP
+
+| Datasets | Scenarios | Nodes | Edges | Wei Links | Min Time Granularity | Data Models | Levels |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| [Social Evolution](http://realitycommons.media.mit.edu/socialevolution.html) | Social Network | Cell phones | Bluetooth signal, calls, or messages between cell phones | No | 1 min | UESD | 2 |
+| [CollegeMsg](https://snap.stanford.edu/data/CollegeMsg.html) | Online social network | App users | Messages sent from a source user to a destination user | No | 1 sec | UESD | 2 |
+| [Wiki-Talk](https://snap.stanford.edu/data/wiki-talk-temporal.html) | Online social network | Wikipedia users | Relations that a user edits another user's talk page | No | 1 sec | UESD | 2 |
+| [Enron](http://konect.cc/networks/enron/) | Email network | Email users | Emails from a source user to a destination user | No | 1 sec | UESD | 2 |
+| [Reddit-Hyperlink](https://snap.stanford.edu/data/soc-RedditHyperlinks.html) | Hyperlink network | Subreddits | Hyperlinks from one subreddit to another | No | 1 sec | UESD | 2 |
+| [DBLP](https://dblp.uni-trier.de/xml/) | Paper collaboration network | Paper authors | Collaboration relations between authors | No | 1 day | UESD | 2 |
+| [AS-733](https://snap.stanford.edu/data/as-733.html) | BGP autonomous systems of Internet | BGP routers | Who-talks-to-whom communication between routers | No | 1 day | ESSD | 2 |
+| [Bitcoin-Alpha](https://snap.stanford.edu/data/soc-sign-bitcoin-alpha.html) | Bitcoin transaction network | Bitcoin users | Trust scores between users | Yes |1 sec | UESD | 2 |
+| [Bitcoin-OTC](https://snap.stanford.edu/data/soc-sign-bitcoin-otc.html) | Bitcoin transaction network | Bitcoin users | Trust scores between users | Yes | 1 sec | UESD | 2 |
+| [UCSB-Mesh](https://ieee-dataport.org/open-access/crawdad-ucsbmeshnet) | Wireless mesh network | Wireless routers | Link quality (in terms of expected transmission time) between routers | Yes | 1 min | ESSD | 1 |
+| [NumFabric](https://github.com/shouxi/numfabric) | (Simulated) data center network | Host servers | Traffic (in terms of KB) between host servers | Yes | 1e-6 sec | UESD | 1 |
+| [UCSD-WTD](http://www.sysnet.ucsd.edu/wtd) | WiFi mobility network & Access points/PDA devices | Signal strength (in terms of dBm) between access points and PAD devices | Yes | 1 sec | UESD | 2 |
+| [UNSW-IoT](https://iotanalytics.unsw.edu.au/iottraces.html) | IoT network | IoT devices | Traffic (in terms of KB) between IoT devices | Yes | 1e-6 sec | UESD | 2 |
+| [WIDE](https://mawi.wide.ad.jp/mawi) | Internet backbone | Host servers/user devices | Traffic (in terms of KB) between servers/devices | Yes | 1e-6 sec | UESD | 2 |
 
 ## Other Related Survey Papers
 
@@ -133,7 +154,7 @@ Details of the implemented TLP methods are summarized as follows.
 
 - Gao, Weifeng, et al. [Edge-Computing-Based Channel Allocation for Deadline-Driven IoT Networks](https://ieeexplore.ieee.org/abstract/document/8998165). IEEE TII 16.10 (2020): 6693-6702.
 
-**Burst Traffic Detection and Dynamic Routing in Optical Networks**
+**Burst Traffic Detection & Dynamic Routing in Optical Networks**
 
 - Vinchoff, Connor, et al. [Traffic prediction in optical networks using graph convolutional generative adversarial networks](https://ieeexplore.ieee.org/abstract/document/9203477). IEEE ICTON 2020.
 
@@ -144,7 +165,7 @@ Details of the implemented TLP methods are summarized as follows.
 
 - Liao, Ziliang, Linlan Liu, and Yubin Chen. [A Novel Link Prediction Method for Opportunistic Networks Based on Random Walk and a Deep Belief Network](https://ieeexplore.ieee.org/abstract/document/8962072). IEEE Access 8 (2020): 16236-16247.
 
-**Dynamics Simulation and Conformational Analysis of Molecules**
+**Dynamics Simulation & Conformational Analysis of Molecules**
 
 - Ashby, Michael Hunter, and Jenna A. Bilbrey. [Geometric learning of the conformational dynamics of molecules using dynamic graph neural networks](https://arxiv.org/abs/2106.13277). arXiv preprint arXiv:2106.13277 (2021).
 
