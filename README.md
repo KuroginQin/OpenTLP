@@ -97,6 +97,7 @@ Details of the implemented TLP methods are summarized as follows.
 | MNCI [[27]](https://dl.acm.org/doi/abs/10.1145/3404835.3463052?casa_token=YNsyAI4l2zoAAAAA%3AFzclItIGp9VmpJXp88q7v7XwV9vPYeHE2lBUTf-rtNbnaI3yJvWlhwlReheF8vL_GERyXSBGKjAyyQ) [(Code)](https://github.com/MGitHubL/MNCI) | SIGIR 2021 | UESD | OTOG | 2 | N/A | Unable |
 | TDGNN [[28]](https://dl.acm.org/doi/abs/10.1145/3366423.3380073?casa_token=jLhry0KLfTkAAAAA%3AM3P8hualerbyJaM34lWGwHAqIuN9d6lkh2nN5fqTIfo57Zx-3pKY7ifTQi-XMb7VRdAuHx_Lt7y4Yw) [(Code)](https://github.com/Leo-Q-316/TDGNN) | WWW 2020 | UESD | OTOG | 1 | Static | Unable |
 | HTNE [[29]](https://dl.acm.org/doi/pdf/10.1145/3219819.3220054?casa_token=Ddsd4L9GsSkAAAAA:JJbGLEFDF82wccb0txK4FfEMVDbiADcxeU8sp2itTxsZcOhlRQ_VD206kJJ9GyRpEvwqfDAKu17b2w) [(Code)](http://zuoyuan.github.io/files/htne.zip) | KDD 2018 | UESD | OTI | 1 | N/A | Unable |
+| SGR [[30]](https://ieeexplore.ieee.org/abstract/document/10183879) [(Code)](https://github.com/yinyanting123/SRG) | TKDE 2023 | ESSD | OTOG | 1 | N/A | Able |
 
 ## Other Related Survey Papers
 
@@ -122,9 +123,11 @@ Details of the implemented TLP methods are summarized as follows.
 
 ## Advanced Applications Supported by TLP
 
-**Intrusion Detection in Enterprise Internet**
+**Intrusion Detection & Threat Prediction for Cyber Security**
 
 - King, Isaiah J., and H. Howie Huang. [Euler: Detecting Network Lateral Movement via Scalable Temporal Link Prediction](https://dl.acm.org/doi/abs/10.1145/3588771). ACM TOPS (2023).
+
+- Zhao, Jun, et al. [Cyber Threat Prediction Using Dynamic Heterogeneous Graph Learning](https://www.sciencedirect.com/science/article/pii/S0950705121011564). KBS 240 (2022): 108086.
 
 **Channel Allocation in Wireless IoT Networks**
 
@@ -136,11 +139,16 @@ Details of the implemented TLP methods are summarized as follows.
 
 - Aibin, Michał, et al. [On short-and long-term traffic prediction in optical networks using machine learning](https://ieeexplore.ieee.org/abstract/document/9492437). IEEE ONDM 2021.
 
+**Dynamic Routing & Topology Control in Mobile Ad Hoc Networks**
+- Guan, Quansheng, et al. [Prediction-Based Topology Control and Routing in Cognitive Radio Mobile Ad Hoc Networks](https://ieeexplore.ieee.org/abstract/document/5560849/). IEEE TOVT 59.9 (2010): 4443-4452.
+
+- Liao, Ziliang, Linlan Liu, and Yubin Chen. [A Novel Link Prediction Method for Opportunistic Networks Based on Random Walk and a Deep Belief Network](https://ieeexplore.ieee.org/abstract/document/8962072). IEEE Access 8 (2020): 16236-16247.
+
 **Dynamics Simulation and Conformational Analysis of Molecules**
 
 - Ashby, Michael Hunter, and Jenna A. Bilbrey. [Geometric learning of the conformational dynamics of molecules using dynamic graph neural networks](https://arxiv.org/abs/2106.13277). arXiv preprint arXiv:2106.13277 (2021).
 
-**Traffic Prediction Demand Prediction in Urban Computing**
+**Traffic Demand Prediction in Urban Computing**
 
 - Liu, Chenxi, et al. [Foreseeing private car transfer between urban regions with multiple graph-based generative adversarial networks](https://link.springer.com/article/10.1007/s11280-021-00995-z). WWWJ 25.6 (2022): 2515-2534.
 
@@ -204,3 +212,5 @@ Details of the implemented TLP methods are summarized as follows.
 [28] Qu, Liang, et al. Continuous-Time Link Prediction via Temporal Dependent Graph Neural Network. ACM WWW, 2020.
 
 [29] Zuo, Yuan, et al. Embedding Temporal Network via Neighborhood Formation. ACM KDD, 2018.
+
+[30] Yin, Yanting, et al. Super Resolution Graph With Conditional Normalizing Flows for Temporal Link Prediction. IEEE TKDE, 2023.
