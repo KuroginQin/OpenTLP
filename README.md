@@ -1,6 +1,6 @@
 # OpenTLP
 
-This repository is the open-source project of a survey paper entitled "[**Temporal Link Prediction: A Unified Framework, Taxonomy, and Review**](https://arxiv.org/abs/2210.08765)". It refactors or implements some representative temporal link prediction (TLP) methods (especially for those do not provide their code) based on the unified encoder-decoder framework and terminologies (regarding task settings, taxonomy, etc.) introduced in our survey paper. In addition, this repository also summarizes some other open-source projects regarding TLP. We will keep updating this repository to include some other (SOTA or classic) TLP methods, task settings, dynamic graph datasets, etc.
+This repository is the open-source project of a survey paper entitled "[**Temporal Link Prediction: A Unified Framework, Taxonomy, and Review**](https://dl.acm.org/doi/10.1145/3625820)", which has been accepted by **ACM Computing Surveys**. It refactors or implements some representative temporal link prediction (TLP) methods (especially for those do not provide their code) based on the unified encoder-decoder framework and terminologies (regarding task settings, taxonomy, etc.) introduced in our survey paper. In addition, this repository also summarizes some other open-source projects regarding TLP. We will keep updating this repository to include some other (SOTA or classic) TLP methods, task settings, dynamic graph datasets, etc.
 
 Note that this repository is not the official implementation of related methods. Some of the implemented TLP approaches also need careful parameter tuning to achieve the best performance on different datasets with different task settings.
 
@@ -13,8 +13,8 @@ If you find this project useful for your research, please cite our survey paper.
 @article{qin2022temporal,
   title={Temporal Link Prediction: A Unified Framework, Taxonomy, and Review}, 
   author={Meng Qin and Dit-Yan Yeung},
-  journal={arXiv preprint arXiv:2210.08765},
-  year={2022}
+  journal={ACM Computing Surveys},
+  year={2023}
 }
 
 ```
