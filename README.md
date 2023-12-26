@@ -1,3 +1,5 @@
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Stars](https://img.shields.io/github/stars/KuroginQin/OpenTLP?color=yellow)  ![Forks](https://img.shields.io/github/forks/KuroginQin/OpenTLP?color=blue&label=Fork)
+
 # OpenTLP
 
 This repository is the open-source project of a survey paper entitled "[**Temporal Link Prediction: A Unified Framework, Taxonomy, and Review**](https://dl.acm.org/doi/10.1145/3625820)", which has been accepted by **ACM Computing Surveys**. It refactors or implements some representative temporal link prediction (TLP, a.k.a. dynamic link prediction) methods (especially for those do not provide their source code) based on the unified encoder-decoder framework and terminologies (regarding task settings, taxonomy, etc.) introduced in our survey paper. In addition, this repository also summarizes some other open-source projects regarding TLP. We will keep updating this repository to include some other (SOTA or classic) TLP methods, task settings, dynamic graph datasets, etc.
