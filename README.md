@@ -12,11 +12,15 @@ Dynamic graphs serve as a generic abstraction and description of the evolutionar
 ## Citing
 If you find this project useful for your research, please cite our survey paper.
 ```
-@article{qin2022temporal,
-  title={Temporal Link Prediction: A Unified Framework, Taxonomy, and Review}, 
-  author={Meng Qin and Dit-Yan Yeung},
+@article{qin2023temporal,
+  title={Temporal link prediction: A unified framework, taxonomy, and review},
+  author={Qin, Meng and Yeung, Dit-Yan},
   journal={ACM Computing Surveys},
-  year={2023}
+  volume={56},
+  number={4},
+  pages={1--40},
+  year={2023},
+  publisher={ACM New York, NY, USA}
 }
 
 ```
@@ -102,6 +106,9 @@ Details of the implemented TLP methods are summarized as follows.
 | TDGNN [[28]](https://dl.acm.org/doi/abs/10.1145/3366423.3380073?casa_token=jLhry0KLfTkAAAAA%3AM3P8hualerbyJaM34lWGwHAqIuN9d6lkh2nN5fqTIfo57Zx-3pKY7ifTQi-XMb7VRdAuHx_Lt7y4Yw) [(Code)](https://github.com/Leo-Q-316/TDGNN) | WWW 2020 | UESD | OTOG | 1 | Static | Unable |
 | HTNE [[29]](https://dl.acm.org/doi/pdf/10.1145/3219819.3220054?casa_token=Ddsd4L9GsSkAAAAA:JJbGLEFDF82wccb0txK4FfEMVDbiADcxeU8sp2itTxsZcOhlRQ_VD206kJJ9GyRpEvwqfDAKu17b2w) [(Code)](http://zuoyuan.github.io/files/htne.zip) | KDD 2018 | UESD | OTI | 1 | N/A | Unable |
 | SGR [[30]](https://ieeexplore.ieee.org/abstract/document/10183879) [(Code)](https://github.com/yinyanting123/SRG) | TKDE 2023 | ESSD | OTOG | 1 | N/A | Able |
+| EdgeBank [[31]](https://proceedings.neurips.cc/paper_files/paper/2022/file/d49042a5d49818711c401d34172f9900-Paper-Datasets_and_Benchmarks.pdf) [(Code)](https://github.com/fpour/DGB) | NIPS 2022 | UESD | OTOG | 2 | Dynamic | Unable |
+| GraphMixer [[32]](https://openreview.net/pdf?id=ayPPc0SyLv1) [(Code)](https://github.com/CongWeilin/GraphMixer) | ICLR 2023 | UESD | OTOG | 2 | Dynamic | Unable |
+| DyGFormer [[33]](https://proceedings.neurips.cc/paper_files/paper/2023/file/d611019afba70d547bd595e8a4158f55-Paper-Conference.pdf) [(Code)](https://github.com/yule-BUAA/DyGLib) | NIPS2023 | UESD | OTOG | 2 | Dynamic | Unable |
 
 ## Public Datasets for TLP
 
@@ -253,3 +260,9 @@ Details of the implemented TLP methods are summarized as follows.
 [29] Zuo, Yuan, et al. Embedding Temporal Network via Neighborhood Formation. ACM KDD, 2018.
 
 [30] Yin, Yanting, et al. Super Resolution Graph With Conditional Normalizing Flows for Temporal Link Prediction. IEEE TKDE, 2023.
+
+[31] Poursafaei, Farimah, et al. Towards Better Evaluation for Dynamic Link Prediction. NIPS, 2022.
+
+[32] Cong, Weilin, et al. Do We Really Need Complicated Model Architectures for Temporal Networks? ICLR, 2023.
+
+[33] Yu, Le, et al. Towards Better Dynamic Graph Learning: New Architecture and Unified Library. NIPS, 2023.
