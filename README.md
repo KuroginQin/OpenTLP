@@ -146,11 +146,15 @@ Details of the implemented TLP methods are summarized as follows.
 
 ## Advanced Applications Supported by TLP
 
-**Intrusion Detection & Threat Prediction for Cyber Security**
+**Intrusion Detection, Threat Prediction, & Lateral Movement Inference for Cyber Security**
 
 - King, Isaiah J., and H. Howie Huang. [Euler: Detecting Network Lateral Movement via Scalable Temporal Link Prediction](https://dl.acm.org/doi/abs/10.1145/3588771). ACM TOPS (2023).
 
 - Zhao, Jun, et al. [Cyber Threat Prediction Using Dynamic Heterogeneous Graph Learning](https://www.sciencedirect.com/science/article/pii/S0950705121011564). KBS 240 (2022): 108086.
+
+- Khoury, Joseph, et al. [Jbeil: Temporal Graph-Based Inductive Learning to Infer Lateral Movement in Evolving Enterprise Networks](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10646732). IEEE Symposium on Security and Privacy (SP): 3644-3660.
+
+- Li, Xiaohui, et al. [Combating Temporal Composition Inference by High-Order Camouflaged Network Topology Obfuscation](https://www.sciencedirect.com/science/article/pii/S0167404824002864). Computers & Security 144 (2024): 103981.
 
 **Channel Allocation in Wireless IoT Networks**
 
@@ -176,6 +180,18 @@ Details of the implemented TLP methods are summarized as follows.
 - Liu, Chenxi, et al. [Foreseeing private car transfer between urban regions with multiple graph-based generative adversarial networks](https://link.springer.com/article/10.1007/s11280-021-00995-z). WWWJ 25.6 (2022): 2515-2534.
 
 - Wang, Qiang, et al. [TGAE: Temporal Graph Autoencoder for Travel Forecasting](https://ieeexplore.ieee.org/abstract/document/9889163). IEEE T-ITS (2022).
+
+**Log Anomaly Detection in Distributed Computing**
+
+- Yan, Lejing, Chao Luo, and Rui Shao. [Discrete Log Anomaly Detection: A Novel Time-Aware Graph-Based Link Prediction Approach](https://www.sciencedirect.com/science/article/pii/S0020025523011611). Information Sciences 647 (2023): 119576.
+
+**Trust Evaluation in BitCoin Transaction**
+
+- Wang, Jie, et al. [TrustGuard: GNN-Based Robust and Explainable Trust Evaluation With Dynamicity Support](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10398459). IEEE TDSC (2024).
+
+**Dynamic Scene Modeling**
+
+- Kurenkov, Andrey, et al. [Modeling Dynamic Environments with Scene Graph Memory](https://proceedings.mlr.press/v202/kurenkov23a/kurenkov23a.pdf). ICML 2023: 17976-17993.
 
 ## References
 [1] Gao, Sheng, Ludovic Denoyer, and Patrick Gallinari. Temporal Link Prediction by Integrating Content and Structure Information. ACM CIKM, 2011.
